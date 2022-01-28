@@ -13,7 +13,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 
 const mongoose = require('mongoose');
 const BlogPost = require('./models/BlogPost');
-mongoose.connect('mongodb+srv://batan:<password>@cluster0.4rkyw.mongodb.net/blu?retryWrites=true&w=majority', { useUnifiedTopology: true, useNewUrlParser: true });
+mongoose.connect('mongodb+srv://batan:12qtprZT@cluster0.4rkyw.mongodb.net/blu?retryWrites=true&w=majority', { useUnifiedTopology: true, useNewUrlParser: true });
 
 
 
